@@ -1,0 +1,39 @@
+/*Na minha lógica pensei em usar 3 Keyframes com um temporizador setTimeout
+* e a id (#slide img) interando para o controle de duração das imagens!
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#slide{
+  
+}
+#slide img{
+    animation-duration: 1s;
+    background-size: cover;
+    width: 100%;
+}
+@keyframes move{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+@keyframes moveDois{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+@keyframes moveTres{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
